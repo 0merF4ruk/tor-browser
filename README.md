@@ -1,10 +1,11 @@
-Tor protects your privacy on the internet by hiding the connection between
-your Internet address and the services you use. We believe Tor is reasonably
-secure, but please ensure you read the instructions and configure it properly.
+Tor, internet üzerindeki gizliliğinizi, internet ile Tor arasındaki bağlantıyı gizleyerek korur.
+Tor'un makul olduğuna inanıyoruz.
+İnternet adresiniz ve kullandığınız hizmetler güvenlidir, 
+ancak lütfen talimatları okuduğunuzdan ve doğru şekilde yapılandırdığınızdan emin olun.
 
-## Build
+## Yapı
 
-To build Tor from source:
+Tor'u kaynaktan derlemek için:
 
 ```
 ./configure
@@ -12,7 +13,7 @@ make
 make install
 ```
 
-To build Tor from a just-cloned git repository:
+Tor'u yeni klonlanmış bir git deposundan derlemek için:
 
 ```
 ./autogen.sh
@@ -21,23 +22,22 @@ make
 make install
 ```
 
-## Releases
+## Sürümler
 
-The tarballs, checksums and signatures can be found here: https://dist.torproject.org
+Tarball'lar, sağlama toplamları ve imzalar burada bulunabilir: https://dist.torproject.org
 
-- Checksum: `<tarball-name>.sha256sum`
-- Signatures: `<tarball-name>.sha256sum.asc`
+- Sağlama: `<tarball-name>.sha256sum`
+- İmzalar: `<tarball-name>.sha256sum.asc`
 
-### Schedule
+### Takvim
 
-You can find our release schedule here:
-
+Yayın takvimimize buradan ulaşabilirsiniz:
 - https://gitlab.torproject.org/tpo/core/team/-/wikis/NetworkTeam/CoreTorReleases
 
-### Keys that CAN sign a release
+### İbranameyi imzalayabilecek anahtarlar.
 
-The following keys are the maintainers of this repository. One or many of
-these keys can sign the releases, do NOT expect them all:
+Aşağıdaki anahtarlar bu deponun bakımcılarıdır. Bunlardan biri veya birçoğu
+bu anahtarlar ibranameleri imzalayabilir, hepsini beklemeyin:
 
 - Alexander Færøy:
     [514102454D0A87DB0767A1EBBE6A0531C18A9179](https://keys.openpgp.org/vks/v1/by-fingerprint/1C1BC007A9F607AA8152C040BEA7B180B1491921)
@@ -46,25 +46,25 @@ these keys can sign the releases, do NOT expect them all:
 - Nick Mathewson:
     [2133BC600AB133E1D826D173FE43009C4607B1FB](https://keys.openpgp.org/vks/v1/by-fingerprint/2133BC600AB133E1D826D173FE43009C4607B1FB)
 
-## Development
+##  Geliştirme
 
-See our hacking documentation in [doc/HACKING/](./doc/HACKING).
+[doc/HACKING/](./doc/HACKING) adresindeki hackleme belgelerimize bakın.
 
-## Resources
+## Kaynaklar
 
-Home page:
+Ana Sayfa:
 
 - https://www.torproject.org/
 
-Download new versions:
+Yeni sürümleri indirin:
 
 - https://www.torproject.org/download/download.html
 
-Documentation, including links to installation and setup instructions:
+Kurulum ve ayar talimatlarına bağlantılar içeren dokümantasyon:
 
 - https://www.torproject.org/docs/documentation.html
 
-Frequently Asked Questions:
+Sıkça Sorulan Sorular:
 
 - https://www.torproject.org/docs/faq.html
 
